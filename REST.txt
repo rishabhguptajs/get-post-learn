@@ -1,0 +1,17 @@
+It is representational state transfer.
+
+Most common way of approaching REST is in formatting HTTP verbs in our applications. 
+-> Its main idea is to treat data on server side resources that can be used in CRUD operations.
+-> It is like set of rules for creating web application servers.
+
+-> We can create, request(view), update, delete anything using RESTful routes and CRUD operations.
+ 
+GET/all
+GET/comments - list all comments
+GET/comments/:id - get one specific comment (using id)
+
+PATCH/comments/:id - update one comment using id
+DELETE/comments/:id - remove or destroy a comment using id
+
+POST/newcomment - create a new comment
+POST/makecomment
